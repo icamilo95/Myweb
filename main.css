@@ -1,8 +1,21 @@
+/*----------------------Phone Number----------------------*/
+.well {
+  padding: 3px;
+  border-radius: 0;
+  padding-right: 90px;  
+   margin-bottom: 0px;
+   background: #333333;
+   color: #0080FF;
+   border-style: none;
+}
+
+/*--------------------------Menu Bar-----------------------*/
 .navbar {
   background:transparent;
   border-style: none;
 }
 
+/*---Makes Menu bar transparent dark----*/
 .navbar-cami {
   background-color: rgba(100,100,100,0.5);
 }
@@ -15,6 +28,7 @@
 /* links */
 .navbar-default .navbar-nav > li > a {
     color: white;
+
 }
 
 /*home*/
@@ -25,26 +39,40 @@
 }
 
 
+/*-----------------------------JUMBOTRON----------------------*/
 
-.well {
-  padding: 3px;
-  border-radius: 0;
-  padding-right: 90px;  
-   margin-bottom: 0px;
-   background: #333333;
-   color: #0080FF;
+.container .jumbotron {
+  background: url('img/background.jpg') ; 
+  margin-top: -70px;
+  z-index: -3;
+  background-size: cover;
+  min-height: 400px;  
+  color: white;
+  border-radius: 0px;
+  border-radius: 0px;
 }
 
-/*----Main Image----*/
-.img-1 {
-   margin-top: -70px;
-   z-index: -1;
 
+.jumbo-text, .jumbo-text-p {
+  padding: 30px 0px 0px 21px;
 }
 
-.jumbotron {
-   /*margin-top: -500px;*/
+.jumbo-text-p{
+  padding: 0px 0px 0px 21px;
+  font-size: 14px;
 }
+
+.btn-1{
+  font-size: 14px;
+  margin-left: 200px;
+  margin-top: -30px;
+  border-style: 1px solid black;
+  background: rgba(100,100,100,0.5);
+  color: white;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
 
 .carousel {   
    width: 500px;
