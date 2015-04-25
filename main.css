@@ -20,16 +20,23 @@
   background-color: rgba(100,100,100,0.5);
 }
 
+.navbar-default .navbar-brand > p{
+    color: white;
+    font-size: 30px;
+    font-family: Lobster;
+}
+
 /* LOGO */
 .navbar-default .navbar-brand {
     color: white;
+
 }
 
 /* links */
 .navbar-default .navbar-nav > li > a {
     color: white;
-
 }
+
 
 /*home*/
 .navbar-default .navbar-nav > .active > a, 
@@ -38,6 +45,9 @@
     color: #61B6E2;
     background: none;
 }
+
+
+
 
 /*-----------------------------JUMBOTRON----------------------*/
 
@@ -60,6 +70,7 @@
 .jumbo-text-p{
   padding: 0px 0px 0px 33px;
   font-size: 14px;
+  font-family:  Arial;
 }
 
 .btn-1{
