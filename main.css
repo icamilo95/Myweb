@@ -1,11 +1,11 @@
 /*----------------------Phone Number----------------------*/
-.well {
-  padding: 3px;
+.phone-well {
+  padding-bottom: 6px;
   border-radius: 0;
   padding-right: 90px;  
    margin-bottom: 0px;
-   background: #333333;
-   color: #0080FF;
+   background: #474747;
+   color: #61B6E2;
    border-style: none;
 }
 
@@ -35,9 +35,9 @@
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #0080FF;
+    color: #61B6E2;
+    background: none;
 }
-
 
 /*-----------------------------JUMBOTRON----------------------*/
 
@@ -49,16 +49,16 @@
   min-height: 400px;  
   color: white;
   border-radius: 0px;
-  border-radius: 0px;
+  margin-bottom: 0px;
 }
 
 
 .jumbo-text, .jumbo-text-p {
-  padding: 30px 0px 0px 21px;
+  padding: 30px 0px 0px 33px;
 }
 
 .jumbo-text-p{
-  padding: 0px 0px 0px 21px;
+  padding: 0px 0px 0px 33px;
   font-size: 14px;
 }
 
@@ -73,7 +73,62 @@
   text-shadow:none !important;
 }
 
+/*----------------------PROFILE HEADING----------------------*/
+.profile-well {
+  border-radius: 0px;
+   margin-bottom: 0px;
+   background: #E7E7E7;
+   color: #61B6E2;
+   border-style: none;
+   height: 50px;
+   padding-top: 15px;
+   padding-left: 50px;
+}
 
+
+/*-----------------------------CAMI SUMMARY----------------------*/
+
+
+.cami-image {
+  width: 300px;
+}
+
+.media-profile {
+  padding-top: 50px;  
+}
+
+/*----------------------APPS HEADING----------------------*/
+.apps-well {
+  border-radius: 0px;
+   /*margin-bottom: 10px;*/
+   background: #474747;
+   color: #61B6E2;
+   border-style: none;
+   height: 50px;
+   padding-top: 15px;
+   padding-left: 50px;
+}
+
+/*----------------------Apps Thumbnails----------------------*/
+
+.btn-app-thumb-1{
+  background: rgba(100,100,100,1);
+  color: white;
+  border-color: black;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
+.btn-app-thumb-2{
+  border-color: #474747;
+  border-radius: 0px;
+  text-shadow:none !important;
+}
+
+.app-thumb-border {
+  border-style: none;
+}
+/*-----------------------------CAROUSEL----------------------*/
 .carousel {   
    width: 500px;
    /*height: 100px;*/
